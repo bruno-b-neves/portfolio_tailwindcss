@@ -28,7 +28,7 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: ['~/plugins/iconify.js'],
   /*
    ** Nuxt.js dev-modules
    */
