@@ -180,8 +180,9 @@
           />
         </a>
 
-        <a
-          href="/contato"
+        <button
+          type="button"
+          @click="openContact"
           class="w-full sm:w-auto inline-flex items-center
                  justify-center gap-2 px-6 py-3.5
                  rounded-xl border border-gray-700
@@ -199,7 +200,7 @@
           />
 
           Vamos conversar
-        </a>
+        </button>
       </div>
 
       <!-- Assinatura técnica -->
@@ -403,13 +404,26 @@
 <!-- Seção Projetos -->
 <!-- Seção Certificações -->
 <!-- Seção Contato -->
-    
+    <ContactModal :is-open="isContactOpen" @close="isContactOpen = false" />
   </div>
 </template>
 
 <script>
 export default {
   name: 'IndexPage',
+  components: {
+    ContactModal: () => import('~/components/ContactModal.vue')
+  },
+  data() {
+    return {
+      isContactOpen: false
+    }
+  },
+  methods: {
+    openContact() {
+      this.isContactOpen = true
+    }
+  },
   head() {
     return {
       title: 'Bruno Neves | Desenvolvedor Frontend',

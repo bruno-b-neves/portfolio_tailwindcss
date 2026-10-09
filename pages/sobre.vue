@@ -29,10 +29,10 @@
                 <span>Conheça meus projetos</span>
                 <Icon icon="material-symbols:arrow-forward-rounded" width="18" height="18" />
               </NuxtLink>
-              <NuxtLink to="/contato" class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-700 bg-gray-800 px-5 py-3 text-sm font-semibold text-gray-200 transition duration-200 hover:border-gray-500 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-gray-500">
+              <button type="button" @click="openContact" class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-700 bg-gray-800 px-5 py-3 text-sm font-semibold text-gray-200 transition duration-200 hover:border-gray-500 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-gray-500">
                 <Icon icon="material-symbols:mail-outline-rounded" width="18" height="18" />
                 <span>Entre em contato</span>
-              </NuxtLink>
+              </button>
             </div>
           </div>
 
@@ -201,12 +201,16 @@
         </section>
 </div>
     </section>
+    <ContactModal :is-open="isContactOpen" @close="isContactOpen = false" />
   </div>
 </template>
 
 <script>
 export default {
   name: 'SobrePage',
+  components: {
+    ContactModal: () => import('~/components/ContactModal.vue')
+  },
   data() {
     return {
 
@@ -291,7 +295,14 @@ export default {
           icon: 'simple-icons:typescript',
           description: 'Tipagem estática para tornar o código mais previsível.'
         }
-      ]
+      ],
+
+      isContactOpen: false
+    }
+  },
+  methods: {
+    openContact() {
+      this.isContactOpen = true
     }
   },
 
