@@ -1,14 +1,18 @@
 <template>
   <div>
     <MenuBase />
-    <nuxt />
+    <div class="container mx-auto">
+      <nuxt />
+    </div>
+    <FooterBase />
   </div>
 </template>
 
 <script>
 export default {
   components: {
-    MenuBase: () => import('~/components/MenuBase.vue')
+    MenuBase: () => import('~/components/MenuBase.vue'),
+    FooterBase: () => import('~/components/FooterBase.vue')
   }
 }
 </script>
@@ -19,6 +23,10 @@ export default {
 *:after {
   box-sizing: border-box;
   margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {

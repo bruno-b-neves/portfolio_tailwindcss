@@ -24,7 +24,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: [],
+  css: ['animate.css/animate.min.css'],
   /*
    ** Plugins to load before mounting the App
    */
@@ -48,7 +48,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: [],
+  modules: ['@nuxtjs/dotenv'],
   /*
    ** Build configuration
    */
@@ -56,6 +56,6 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {},
+    extend(config, ctx) { },
   },
 };

@@ -11,6 +11,8 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/dotenv": "^1.4.2",
+    "animate.css": "^4.1.1",
     "nuxt": "^2.0.0"
   },
   "devDependencies": {
