@@ -142,7 +142,7 @@ export default {
           description: 'Formação abrangente em desenvolvimento web moderno, consolidando fundamentos de programação e JavaScript por meio da construção de aplicações práticas. O aprendizado fortaleceu minha capacidade de estruturar interfaces, compreender aplicações de ponta a ponta e integrar tecnologias frontend e backend, contribuindo diretamente para minha evolução profissional como desenvolvedor Frontend.',
           courseUrl: 'https://www.udemy.com/course/curso-web/',
           certificateUrl: '',
-          image: '', // Ex.: '/images/cursos/nome-do-curso.webp'
+          image: '/images/certificacoes/course-webmoderno.jpeg', // Ex.: '/images/cursos/nome-do-curso.webp'
           curriculum: [
             'Fundamentos de programação, lógica e algoritmos',
             'JavaScript: fundamentos, funções, objetos e arrays',
@@ -170,7 +170,7 @@ export default {
           description: 'Formação especializada no ecossistema Vue.js 2, abrangendo desde os fundamentos da reatividade e construção de interfaces declarativas até o desenvolvimento de aplicações estruturadas com componentes reutilizáveis, gerenciamento de estado e navegação entre páginas. O aprendizado consolidou conhecimentos em comunicação entre componentes, diretivas, ciclo de vida, Vue Router e Vuex, fortalecendo minha capacidade de desenvolver interfaces dinâmicas, organizar aplicações frontend e implementar soluções escaláveis. A construção de uma base técnica que contribuiu diretamente para minha evolução profissional com Vue.js, posteriormente aplicada na modernização do frontend institucional do CPV, durante a migração de WordPress para Vue 2.',
           courseUrl: '',
           certificateUrl: '',
-          image: '', // Ex.: '/images/cursos/nome-do-curso.webp'
+          image: '/images/certificacoes/course-vuejsguiacompleto.jpeg', // Ex.: '/images/cursos/nome-do-curso.webp'
           curriculum: [
             'Fundamentos do Vue.js e configuração do ambiente',
             'Instância Vue, templates e sintaxe declarativa',
@@ -197,7 +197,7 @@ export default {
           description: 'Formação em Design de Interfaces voltada à criação de experiências digitais funcionais, consistentes e visualmente estruturadas, utilizando o Figma como ferramenta principal. O curso aprofundou conhecimentos em princípios de composição visual, hierarquia da informação, tipografia, teoria das cores, acessibilidade e construção de guias de estilo, percorrendo as etapas de criação de uma interface — do briefing e wireframe ao mockup e protótipo interativo. Ampliação da minha visão como desenvolvedor Frontend, fortalecendo a capacidade de interpretar decisões de design, transformar propostas visuais em interfaces responsivas e contribuir para produtos digitais com maior consistência, clareza e usabilidade.',
           courseUrl: 'https://www.udemy.com/course/ui-design-design-de-interface-de-usuario/',
           certificateUrl: '',
-          image: '', // Ex.: '/images/cursos/nome-do-curso.webp'
+          image: '/images/certificacoes/course-uidesign.jpeg', // Ex.: '/images/cursos/nome-do-curso.webp'
           curriculum: [
             'Introdução ao UI Design, UX Design e Figma',
             'Ferramentas do Figma, frames, layers e formas vetoriais',
@@ -225,7 +225,7 @@ export default {
           description: 'Formação prática e introdutória em desenvolvimento Backend com Java e Spring Boot, baseada na construção de uma API REST para gerenciamento de tarefas, desde a configuração do ambiente até a publicação da aplicação. O curso aborda organização de projetos, criação de endpoints HTTP, persistência de dados com Spring Data JPA e H2, validação de informações, autenticação, segurança e implementação das operações de cadastro, consulta e atualização de tarefas. Ampliação da minha compreensão sobre a arquitetura de aplicações web, comunicação entre Frontend e Backend e funcionamento de APIs REST, fortalecendo minha capacidade de desenvolver interfaces que se integram a serviços e compreender melhor o fluxo completo dos dados em uma aplicação.',
           courseUrl: 'https://app.rocketseat.com.br/jornada/java-com-spring-boot-curso-introdutorio/visao-geral',
           certificateUrl: '',
-          image: '', // Ex.: '/images/cursos/nome-do-curso.webp'
+          image: '/images/certificacoes/course-javaspringboot.jpeg', // Ex.: '/images/cursos/nome-do-curso.webp'
           curriculum: [
             'Configuração do ambiente com Java, Maven e IDE',
             'Estrutura e organização de projetos Spring Boot',
@@ -275,7 +275,7 @@ export default {
             'https://www.freecodecamp.org/learn/responsive-web-design/',
 
           certificateUrl: '',
-          image: ''
+          image: '/images/certificacoes/course-freecodecamp.jpeg', // Ex.: '/images/cursos/nome-do-curso.webp'
         }
       ]
     }

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Logo de desenvolvedor frontend</title>
+  <desc id="desc">Símbolo de terminal com sinais de código e uma janela que lembra uma interface web.</desc>
+  <defs>
+    <linearGradient id="brand" x1="12" y1="10" x2="84" y2="86" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#34D399"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="18" y1="18" x2="78" y2="78" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1F2937"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+  </defs>
+  <rect x="3" y="3" width="90" height="90" rx="25" fill="#111827" stroke="url(#brand)" stroke-width="2.5"/>
+  <rect x="16" y="19" width="64" height="58" rx="10" fill="url(#panel)" stroke="#374151" stroke-width="1.5"/>
+  <path d="M16 30C16 23.925 20.925 19 27 19H69C75.075 19 80 23.925 80 30V34H16V30Z" fill="#1F2937"/>
+  <circle cx="25" cy="27" r="2.5" fill="#F87171"/>
+  <circle cx="33" cy="27" r="2.5" fill="#FBBF24"/>
+  <circle cx="41" cy="27" r="2.5" fill="#34D399"/>
+  <path d="M37 43L27 51L37 59" stroke="#60A5FA" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M47 42L41 61" stroke="#E5E7EB" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M51 43L61 51L51 59" stroke="#34D399" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M66 65H72" stroke="#34D399" stroke-width="3" stroke-linecap="round"/>
+</svg>

@@ -64,8 +64,7 @@
               </span>
               <span>
                 <span class="block text-xs text-gray-500">LinkedIn</span>
-                <span class="block text-sm font-medium text-gray-200 group-hover:text-emerald-300">Perfil
-                  profissional</span>
+                <span class="block text-sm font-medium text-gray-200 group-hover:text-emerald-300">Bruno Barbosa Neves</span>
               </span>
               <Icon icon="material-symbols:open-in-new-rounded" width="15" height="15"
                 class="ml-auto flex-shrink-0 text-gray-600" />
@@ -79,7 +78,7 @@
               </span>
               <span>
                 <span class="block text-xs text-gray-500">GitHub</span>
-                <span class="block text-sm font-medium text-gray-200 group-hover:text-white">Meus projetos</span>
+                <span class="block text-sm font-medium text-gray-200 group-hover:text-white">bruno-b-neves</span>
               </span>
               <Icon icon="material-symbols:open-in-new-rounded" width="15" height="15"
                 class="ml-auto flex-shrink-0 text-gray-600" />
@@ -185,9 +184,9 @@ export default {
 
   data() {
     return {
-      email: 'SEU_EMAIL_REAL',
-      linkedinUrl: 'https://linkedin.com/in/SEU_PERFIL',
-      githubUrl: 'https://github.com/SEU_USUARIO',
+      email: 'brunobneves95@gmail.com',
+      linkedinUrl: 'https://linkedin.com/in/bruno-barbosa-neves-1b15621ab',
+      githubUrl: 'https://github.com/bruno-b-neves',
 
       previousActiveElement: null,
 
