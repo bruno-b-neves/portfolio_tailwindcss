@@ -75,45 +75,40 @@
             <div class="flex flex-wrap justify-center lg:justify-start
                  gap-2">
               <span class="inline-flex items-center gap-2 px-3 py-2
-                   rounded-lg border
-                   border-opacity-30
-                   bg-opacity-10
+                   rounded-lg border border-gray-700
+                   bg-gray-800 text-gray-300
                    text-xs sm:text-sm font-mono">
                 <Icon icon="simple-icons:vuedotjs" width="16" height="16" />
                 Vue.js
               </span>
 
               <span class="inline-flex items-center gap-2 px-3 py-2
-                   rounded-lg border
-                   border-opacity-30
-                   bg-opacity-10
+                   rounded-lg border border-gray-700
+                   bg-gray-800 text-gray-300
                    text-xs sm:text-sm font-mono">
                 <Icon icon="simple-icons:nuxt" width="16" height="16" />
                 Nuxt
               </span>
 
               <span class="inline-flex items-center gap-2 px-3 py-2
-                   rounded-lg border
-                   border-opacity-30
-                   bg-opacity-10
+                   rounded-lg border border-gray-700
+                   bg-gray-800 text-gray-300
                    text-xs sm:text-sm font-mono">
                 <Icon icon="simple-icons:javascript" width="16" height="16" />
                 JavaScript
               </span>
 
               <span class="inline-flex items-center gap-2 px-3 py-2
-                   rounded-lg border
-                   border-opacity-30
-                   bg-opacity-10
+                   rounded-lg border border-gray-700
+                   bg-gray-800 text-gray-300
                    text-xs sm:text-sm font-mono">
                 <Icon icon="simple-icons:tailwindcss" width="16" height="16" />
                 Tailwind CSS
               </span>
 
               <span class="inline-flex items-center gap-2 px-3 py-2
-                   rounded-lg border
-                   border-opacity-30
-                   bg-opacity-10
+                   rounded-lg border border-gray-700
+                   bg-gray-800 text-gray-300
                    text-xs sm:text-sm font-mono">
                 <Icon icon="simple-icons:bootstrap" width="16" height="16" />
                 Bootstrap
