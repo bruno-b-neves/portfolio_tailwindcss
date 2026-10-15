@@ -1,20 +1,6 @@
 <template>
   <div>
   <footer class="bg-gray-900 px-6 py-8 text-sm text-gray-400">
-    <!-- Divisor com ícone central -->
-    <div class="mx-auto mb-8 flex max-w-6xl items-center gap-4">
-      <div class="h-px flex-1 bg-gray-800"></div>
-
-      <Icon
-        icon="lucide:code-2"
-        class="shrink-0 text-gray-700 text-opacity-80"
-        width="24"
-        height="24"
-        aria-hidden="true"
-      />
-
-      <div class="h-px flex-1 bg-gray-800"></div>
-    </div>
 
     <div class="mx-auto flex max-w-6xl flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
       <div class="text-center sm:text-left">

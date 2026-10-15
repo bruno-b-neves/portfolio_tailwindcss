@@ -4,6 +4,21 @@
     <div class="container mx-auto">
       <nuxt />
     </div>
+        <!-- Divisor com ícone central -->
+    <!-- <div class="mx-auto mb-8 flex max-w-6xl items-center gap-4">
+      <div class="h-px flex-1 bg-gray-800"></div>
+
+      <Icon
+        icon="lucide:code-2"
+        class="shrink-0 text-gray-700 text-opacity-80"
+        width="24"
+        height="24"
+        aria-hidden="true"
+      />
+
+      <div class="h-px flex-1 bg-gray-800"></div>
+    </div> -->
+
     <FooterBase />
   </div>
 </template>

@@ -4,8 +4,7 @@
     <!-- Hero / Seção Principal -->
     <!-- Hero / Seção Principal (Redenhada para ornar com o Design System do site) -->
 <main
-  class="relative overflow-hidden bg-gray-900 px-6 sm:px-8 lg:px-16"
-  style="min-height: calc(100vh - 275px);"
+  class="relative overflow-hidden bg-gray-900 px-6 sm:px-8 lg:px-16 min-h-screen"
 >
   <!-- Iluminação decorativa -->
   <div
