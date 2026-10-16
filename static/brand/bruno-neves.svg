@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" role="img" aria-labelledby="brand-title brand-description">
+  <title id="brand-title">Bruno Neves — monograma BN</title>
+  <desc id="brand-description">Iniciais B e N em formas geométricas, com degradê azul e verde sobre fundo escuro.</desc>
+  <defs>
+    <linearGradient id="bn-gradient" x1="14" y1="22" x2="82" y2="74" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#34D399"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="94" height="94" rx="22" fill="#111827" stroke="#374151" stroke-width="2"/>
+  <g fill="url(#bn-gradient)">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M14 22H29C40 22 46 27 46 36C46 41 44 45 40 47C45 49 48 54 48 60C48 69 42 74 30 74H14V22ZM23 30V43H29C34 43 37 41 37 37C37 32 34 30 29 30H23ZM23 51V66H30C36 66 39 64 39 60C39 54 36 51 30 51H23Z"/>
+    <path d="M54 74V22H62L74 53V22H82V74H74L62 43V74H54Z"/>
+  </g>
+</svg>

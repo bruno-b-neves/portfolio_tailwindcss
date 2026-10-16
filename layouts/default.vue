@@ -1,25 +1,10 @@
 <template>
-  <div>
-    <MenuBase />
-    <div class="container mx-auto">
+  <div class="site-shell flex flex-col">
+    <MenuBase class="flex-shrink-0" />
+    <div class="container mx-auto min-w-0 w-full flex-1">
       <nuxt />
     </div>
-        <!-- Divisor com ícone central -->
-    <!-- <div class="mx-auto mb-8 flex max-w-6xl items-center gap-4">
-      <div class="h-px flex-1 bg-gray-800"></div>
-
-      <Icon
-        icon="lucide:code-2"
-        class="shrink-0 text-gray-700 text-opacity-80"
-        width="24"
-        height="24"
-        aria-hidden="true"
-      />
-
-      <div class="h-px flex-1 bg-gray-800"></div>
-    </div> -->
-
-    <FooterBase />
+    <FooterBase class="flex-shrink-0" />
   </div>
 </template>
 
@@ -33,6 +18,11 @@ export default {
 </script>
 
 <style>
+.site-shell {
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
 *,
 *:before,
 *:after {
@@ -45,11 +35,7 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-size: 1em;
-  line-height: 1.5;
-  letter-spacing: 0.5px;
 
   background-color: #111827;
   color: #fff;

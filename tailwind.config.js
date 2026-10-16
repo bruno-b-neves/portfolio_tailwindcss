@@ -9,6 +9,11 @@ module.exports = {
   darkMode: false, // ou 'media' ou 'class'
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+        display: ['Space Grotesk', 'Inter', 'system-ui', 'sans-serif'],
+        mono: ['IBM Plex Mono', 'ui-monospace', 'monospace'],
+      },
       colors: {
         emerald: {
           50: 'oklch(97.9% 0.021 166.113)',
